@@ -1,0 +1,30 @@
+{
+	"name": "DataMgmtDWH",
+	"properties": {
+		"parameters": {
+			"schemaName": {
+				"type": "string"
+			},
+			"tableName": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "SqlPoolTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": {
+				"value": "@dataset().schemaName",
+				"type": "Expression"
+			},
+			"table": {
+				"value": "@dataset().tableName",
+				"type": "Expression"
+			}
+		},
+		"sqlPool": {
+			"referenceName": "Data Mgmt",
+			"type": "SqlPoolReference"
+		}
+	}
+}
