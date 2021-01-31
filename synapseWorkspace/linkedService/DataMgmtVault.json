@@ -1,0 +1,11 @@
+{
+	"name": "DataMgmtVault",
+	"type": "Microsoft.Synapse/workspaces/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://DataMgmtVault.vault.azure.net/"
+		}
+	}
+}
