@@ -1,0 +1,14 @@
+{
+	"name": "SynapseFS",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://datamanagement.dfs.core.windows.net"
+		},
+		"connectVia": {
+			"referenceName": "testRunetime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
