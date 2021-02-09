@@ -10,7 +10,6 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "changed.csv",
 				"folderPath": "RAW/SalesLT/Address",
 				"fileSystem": "synapsefs"
 			},
